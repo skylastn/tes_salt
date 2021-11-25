@@ -12,7 +12,7 @@ void main() {
   initializeDateFormatting('id');
   SystemChrome.setSystemUIOverlayStyle(
     const SystemUiOverlayStyle(
-      statusBarColor: Colors.cyanAccent,
+      statusBarColor: Colors.grey,
     ),
   );
   runApp(const MyApp());
